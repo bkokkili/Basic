@@ -1,0 +1,7 @@
+#movies {
+    display: flex;
+    gap: 5px;
+}
+#imgWidth{
+    width: 25%;
+}

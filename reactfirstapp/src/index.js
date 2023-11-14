@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Button from './App';
-import Movie from './example';
+import Movie from './movieTiltle';
 import reportWebVitals from './reportWebVitals';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<div>
-  <h1>Welcome to ReactWrold</h1>
+root.render(
+<div id="movies">
   <Button/>
   <Movie/>
   </div>
