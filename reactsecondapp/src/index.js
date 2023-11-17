@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Button from './App';
-import Movie from './movieTiltle';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-
+import Button from './components/buttons';
+import { ButtonClass } from './components/buttons';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  /*react will always render one component*/ 
-<div>
+  <div>
   <Button/>
-  <Movie/>
+  <ButtonClass/>
   </div>
 );
 
