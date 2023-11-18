@@ -9,7 +9,7 @@ function Button(){
 class ButtonClass extends Component{
     render(){
         return(
-         <div> Hello React World</div>
+         <div> Hello React World!</div>
         );
     }
 }
